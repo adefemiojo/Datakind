@@ -9,7 +9,7 @@ import picamera
 import picamera.array
 import subprocess
 
-def take_pic(camera,output):
+def takepic(camera,output):
 	horz = 256
 	vert = 192
 	camera.resolution = (horz,vert)
